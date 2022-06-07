@@ -8,9 +8,6 @@ $connex = new connexion();
 
 
 $bdd = $connex->get_connex();
-$desc = "Ma'am! These are our boys! (Two young boys step into sight.) Jules, and Verne! Boys, this is Marty and Jennifer. Doc, I thought I'd never see you again! Can't keep a good scientist down. After all, I had to come back for Einstein, and I didn't want you to be worried about me. (Clara hands him something wrapped in brown paper.) Oh. I brought you a little souvenir. (Doc stoops down from the train but doesn't get off, and gives the gift to Marty. Marty rips it open. Inside is a framed photo of him and Doc at the clock tower in 1885.)";
-
-
 $req = $bdd->prepare("SELECT * FROM variables");
 $req->execute(array());
 $res = $req->fetchAll();
@@ -18,12 +15,12 @@ $res = $req->fetchAll();
 $lienSelfie = $res[0]['val_variable'];
 $lienCv = $res[1]['val_variable'];
 $theme = $res[2]['val_variable'];
-$ib1 = $res[3]['val_variable'];
-$ib2 = $res[4]['val_variable'];
-$ib3 = $res[5]['val_variable'];
-$it1 = $res[6]['val_variable'];
-$it2 = $res[7]['val_variable'];
-$it3 = $res[8]['val_variable'];
+$ib1 = $res[3]['val_variable']; // Index -> bloc de texte 1
+$ib2 = $res[4]['val_variable']; // Index -> bloc de texte 2
+$ib3 = $res[5]['val_variable']; // Index -> bloc de texte 3
+$it1 = $res[6]['val_variable']; // Index -> bloc de texte 1
+$it2 = $res[7]['val_variable']; // Index -> bloc de texte 2
+$it3 = $res[8]['val_variable']; // Index -> bloc de texte 3
 
 ?>
 
