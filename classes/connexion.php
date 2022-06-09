@@ -3,7 +3,7 @@ class connexion
 {
 
     //public function connexion ($dbname="u339911399_port", $db_host="mysql.hostinger.fr", $db_user="u339911399_jord", $db_pass="Sptb3|#G7u^Y@A")
-    public function __construct ($dbname="id18817360_portfolio", $db_host="localhost", $db_user="id18817360_root", $db_pass="e5B6S8h]r#^J")
+    public function __construct ($dbname="id18817360_portfolio", $db_host="127.0.0.1", $db_user="id18817360_root", $db_pass="e5B6S8h]r#^J")
     {
 
         try
