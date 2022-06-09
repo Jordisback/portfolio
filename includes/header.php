@@ -20,6 +20,7 @@
 	<!-- insertion Fichiers JS -->
 	<script src="js/jquery/jquery-3.4.1.min.js"></script>
 	<script src="js/jquery/jquery-ui.js"></script>
+	<script src="js/mes_script.js"></script>
 	<script src="js/toastr/toastr.js"></script>
 	<script src="js/toastr/toastr.min.js"></script>
 
